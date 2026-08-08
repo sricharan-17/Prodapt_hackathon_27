@@ -1,0 +1,191 @@
+{
+  "categories": [
+    "Frontend",
+    "Backend",
+    "Database",
+    "Cloud & Infrastructure",
+    "DevOps & CI/CD",
+    "AI / Machine Learning",
+    "Mobile",
+    "Security",
+    "Testing",
+    "Tools & Workflow"
+  ],
+  "skills": {
+    "React": {
+      "category": "Frontend",
+      "synonyms": ["React.js", "ReactJS", "React Framework"],
+      "parent": "JavaScript Ecosystem",
+      "related": ["Next.js", "TypeScript", "JavaScript", "Redux", "Frontend Development"],
+      "weight": 1.0
+    },
+    "Next.js": {
+      "category": "Frontend",
+      "synonyms": ["NextJS", "Next"],
+      "parent": "React",
+      "related": ["React", "TypeScript", "SSR", "Frontend Development"],
+      "weight": 0.9
+    },
+    "Vue.js": {
+      "category": "Frontend",
+      "synonyms": ["Vue", "VueJS"],
+      "parent": "JavaScript Ecosystem",
+      "related": ["JavaScript", "Nuxt.js", "Frontend Development"],
+      "weight": 0.8
+    },
+    "JavaScript": {
+      "category": "Frontend",
+      "synonyms": ["JS", "ES6", "ECMAScript"],
+      "parent": "Programming Languages",
+      "related": ["TypeScript", "React", "Node.js", "Frontend Development"],
+      "weight": 1.0
+    },
+    "TypeScript": {
+      "category": "Frontend",
+      "synonyms": ["TS"],
+      "parent": "JavaScript",
+      "related": ["JavaScript", "React", "Node.js"],
+      "weight": 0.9
+    },
+    "HTML/CSS": {
+      "category": "Frontend",
+      "synonyms": ["HTML", "CSS", "HTML5", "CSS3", "Tailwind", "Tailwind CSS"],
+      "parent": "Frontend",
+      "related": ["React", "Frontend Development"],
+      "weight": 0.7
+    },
+    "Python": {
+      "category": "Backend",
+      "synonyms": ["Python3", "Py"],
+      "parent": "Programming Languages",
+      "related": ["Flask", "Django", "FastAPI", "Data Science", "Backend Development"],
+      "weight": 1.0
+    },
+    "FastAPI": {
+      "category": "Backend",
+      "synonyms": ["Fast API"],
+      "parent": "Python Web Framework",
+      "related": ["Python", "Flask", "REST API", "AsyncIO", "Backend Development"],
+      "weight": 0.9
+    },
+    "Flask": {
+      "category": "Backend",
+      "synonyms": ["Flask Framework"],
+      "parent": "Python Web Framework",
+      "related": ["Python", "FastAPI", "REST API", "Backend Development"],
+      "weight": 0.8
+    },
+    "Django": {
+      "category": "Backend",
+      "synonyms": ["Django REST Framework", "DRF"],
+      "parent": "Python Web Framework",
+      "related": ["Python", "REST API", "PostgreSQL", "Backend Development"],
+      "weight": 0.9
+    },
+    "Node.js": {
+      "category": "Backend",
+      "synonyms": ["Node", "NodeJS", "Express", "Express.js"],
+      "parent": "JavaScript Ecosystem",
+      "related": ["JavaScript", "TypeScript", "REST API", "Backend Development"],
+      "weight": 0.9
+    },
+    "REST API": {
+      "category": "Backend",
+      "synonyms": ["REST", "RESTful API", "RESTful Services", "Web APIs", "API Development"],
+      "parent": "API Architecture",
+      "related": ["GraphQL", "FastAPI", "Flask", "Express.js", "Django", "Backend Development"],
+      "weight": 1.0
+    },
+    "GraphQL": {
+      "category": "Backend",
+      "synonyms": ["Apollo GraphQL"],
+      "parent": "API Architecture",
+      "related": ["REST API", "Node.js", "React"],
+      "weight": 0.8
+    },
+    "SQL": {
+      "category": "Database",
+      "synonyms": ["Relational Database", "RDBMS", "Structured Query Language"],
+      "parent": "Database",
+      "related": ["PostgreSQL", "MySQL", "SQLite", "Database Design", "ORM"],
+      "weight": 1.0
+    },
+    "PostgreSQL": {
+      "category": "Database",
+      "synonyms": ["Postgres", "PostgresDB", "pgvector"],
+      "parent": "SQL",
+      "related": ["SQL", "MySQL", "Database Design", "Backend Development"],
+      "weight": 0.9
+    },
+    "MySQL": {
+      "category": "Database",
+      "synonyms": ["My SQL", "MariaDB"],
+      "parent": "SQL",
+      "related": ["SQL", "PostgreSQL", "Database Design"],
+      "weight": 0.8
+    },
+    "MongoDB": {
+      "category": "Database",
+      "synonyms": ["Mongo", "NoSQL", "DocumentDB"],
+      "parent": "NoSQL Database",
+      "related": ["Node.js", "Express", "Database"],
+      "weight": 0.8
+    },
+    "Redis": {
+      "category": "Database",
+      "synonyms": ["Redis Cache", "In-memory Data Store"],
+      "parent": "Caching",
+      "related": ["Backend Development", "System Architecture"],
+      "weight": 0.8
+    },
+    "AWS": {
+      "category": "Cloud & Infrastructure",
+      "synonyms": ["Amazon Web Services", "EC2", "S3", "Lambda", "AWS Cloud"],
+      "parent": "Cloud Computing",
+      "related": ["Docker", "Kubernetes", "DevOps", "GCP", "Azure"],
+      "weight": 1.0
+    },
+    "Docker": {
+      "category": "DevOps & CI/CD",
+      "synonyms": ["Containerization", "Docker Containers", "Docker Compose"],
+      "parent": "DevOps",
+      "related": ["Kubernetes", "CI/CD", "AWS", "Linux"],
+      "weight": 0.9
+    },
+    "Kubernetes": {
+      "category": "DevOps & CI/CD",
+      "synonyms": ["K8s", "K8S"],
+      "parent": "Container Orchestration",
+      "related": ["Docker", "AWS", "DevOps"],
+      "weight": 0.8
+    },
+    "Git": {
+      "category": "Tools & Workflow",
+      "synonyms": ["GitHub", "GitLab", "Version Control", "Bitbucket"],
+      "parent": "Version Control",
+      "related": ["CI/CD", "DevOps", "Software Engineering"],
+      "weight": 1.0
+    },
+    "CI/CD": {
+      "category": "DevOps & CI/CD",
+      "synonyms": ["Continuous Integration", "GitHub Actions", "Jenkins"],
+      "parent": "DevOps",
+      "related": ["Git", "Docker", "AWS"],
+      "weight": 0.8
+    },
+    "RAG / Vector DB": {
+      "category": "AI / Machine Learning",
+      "synonyms": ["Retrieval-Augmented Generation", "Vector Store", "pgvector", "Embeddings", "LangChain", "LlamaIndex"],
+      "parent": "AI Engineering",
+      "related": ["Python", "LLM", "NLP", "Machine Learning"],
+      "weight": 0.9
+    },
+    "LLM": {
+      "category": "AI / Machine Learning",
+      "synonyms": ["Large Language Models", "OpenAI", "GPT-4", "Gemini", "Prompt Engineering"],
+      "parent": "AI Engineering",
+      "related": ["Python", "RAG / Vector DB", "NLP"],
+      "weight": 0.9
+    }
+  }
+}
